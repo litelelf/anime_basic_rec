@@ -5,7 +5,7 @@ from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-df1 = pd.read_csv('archive/anime.csv')
+df1 = pd.read_csv('anime.csv')
 
 df1['genre'] = df1['genre'].fillna('Unknown')
 df1['type'] = df1['type'].fillna('Unknown')
