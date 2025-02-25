@@ -4,6 +4,7 @@ import numpy as np
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.metrics.pairwise import cosine_similarity
 
+# SITE -> https://animebasicrec.streamlit.app/
 
 df1 = pd.read_csv('anime.csv')
 
